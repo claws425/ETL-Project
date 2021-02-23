@@ -1,0 +1,14 @@
+CREATE TABLE population (
+	state_id INT PRIMARY KEY NOT NULL,
+	State VARCHAR NOT NULL,
+	pop INT
+);
+
+CREATE TABLE senator (
+	state VARCHAR NOT NULL,
+	name VARCHAR PRIMARY KEY NOT NULL,
+	party VARCHAR NOT NULL
+);
+
+SELECT * FROM population
+SELECT * FROM senator
