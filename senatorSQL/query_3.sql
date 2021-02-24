@@ -1,4 +1,4 @@
--- Givs us the names of the senators in states with population greater than 10000000
+-- Give us the names of the senators in states with population greater than 10000000
 
 SELECT
 senator.name,
